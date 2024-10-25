@@ -1,20 +1,8 @@
-# 捲軸效果2: 橫向捲軸頁面與捲軸事件
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## 展示
+## Getting Started
 
-1 [page](https://idben.github.io/scroll_02/)
-
-## 主要分支
-1. 使用單純的 js 計算捲動到哪個區間。
-2. 使用單純的 css 控制，滑動以 .area 做為單位。
-3. 開始捲動時會加上圖片中的漸層，停止時會移除
-
-## 分支 dev2
-1. 將主分支改寫成 react 的版本
-
-## 有使用到 next 的部份
-
-首先，啟動開發伺服器：
+First, run the development server:
 
 ```bash
 npm run dev
@@ -26,12 +14,27 @@ pnpm dev
 bun dev
 ```
 
-用瀏覽器開啟 [http://localhost:3000](http://localhost:3000) 查看結果。
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-你可以開始編輯 `pages/index.js`. 來修改頁面。檔案在修改後會自動更新頁面。
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) 可以透過 [http://localhost:3000/api/hello](http://localhost:3000/api/hello)存取。 你可以在`pages/api/hello.js`中編輯這個端點。
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-`pages/api` 目錄會對應到  `/api/*`。這個目錄下的檔案會被視為 [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)，而不是 React 頁面。
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-這個專案使用 [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) 自動優化並載入 [Geist](https://vercel.com/font)，Vercel 推出的新字型家族。
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
