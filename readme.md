@@ -10,17 +10,7 @@
 3. 開始捲動時會加上圖片中的漸層，停止時會移除
 
 ## 分支 dev2
-1. 主要分支的 react 版本
-2. 主分支的 css 改成了 module sass
-3. 因為整頁的捲動事件要註冊在 document 或 window 中，而現在 react 的節點中沒有 document 或 window，因此在頁面載入完時用 useEffect 在 window 註冊
-4. 切換到 react 的分支最好重新安裝並清除 .next 再跑 dev
-
-## 分支 dev3
-1. 使用 gsap 來做捲軸事件的計算與效果觸發
-
-## 分支 dev4
-1. 將 dev3 的部份在 react 中重寫
-2. 切換到 react 的分支最好重新安裝並清除 .next 再跑 dev
+1. 將主分支改寫成 react 的版本
 
 ## 有使用到 next 的部份
 
